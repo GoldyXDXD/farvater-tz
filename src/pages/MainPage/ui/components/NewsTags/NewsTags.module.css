@@ -1,0 +1,29 @@
+a.tag {
+    padding: 6px 14px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 1px solid #428D26;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.active {
+    color: white;
+    background: #428D26;
+}
+
+.default {
+    color: #428D26;
+    background: white;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 52px ;
+    max-width: 90%;
+}

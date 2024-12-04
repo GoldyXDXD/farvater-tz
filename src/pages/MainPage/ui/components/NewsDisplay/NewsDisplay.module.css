@@ -1,0 +1,69 @@
+.NewsDisplay {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 50px;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1272px;
+    margin-bottom: 52px;
+}
+
+.NewsCard {
+    color: #262626;
+}
+
+.NewsCard img {
+    width: 100%;
+}
+
+.NewsCard .date {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6C6C6C;
+    margin-top: 10px;
+}
+
+.NewsCard h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.NewsCard h4:hover {
+    text-decoration: underline;
+}
+
+.NewsCard h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.NewsCard p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (1200px >= width > 768px) {
+    .NewsDisplay {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .NewsDisplay {
+        grid-template-columns: 1fr;
+    }
+}

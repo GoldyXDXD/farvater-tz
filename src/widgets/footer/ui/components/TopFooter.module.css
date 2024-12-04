@@ -1,0 +1,147 @@
+.TopFooter {
+    background: #101010;
+}
+
+.info {
+    width: 90%;
+    max-width: 1272px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.logoSection {
+    display: flex;
+    flex-direction: column;
+    max-width: 22%;
+    line-height: 1.5;
+}
+
+.logo img {
+    width: 216px;
+}
+
+.platform {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    padding-top: 30px;
+}
+
+
+.download {
+    width: 155px;
+    margin-top: 13px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.TopFooter h5 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #6C6C6C;
+    margin: 0;
+    padding-bottom: 26px;
+}
+
+.columns {
+    display: flex;
+    column-gap: 120px;
+}
+
+a.cabinet {
+    border: 1px solid white;
+    padding: 13px 17px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 26px;
+    max-width: 231px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .info {
+        flex-direction: column-reverse;
+        row-gap: 50px;
+    }
+
+    .logoSection {
+        max-width: 100%;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .platform {
+        padding-top: 0;
+        max-width: 200px;
+    }
+
+    .download {
+        margin-top: 0;
+    }
+
+    .columns {
+        column-gap: 0;
+        justify-content: space-between;
+    }
+
+    a.logo {
+        width: 20%
+    }
+
+    .logo img {
+        width: 100%;
+        max-width: 216px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .logoSection {
+        flex-wrap: wrap;
+        column-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logoSection {
+        flex-direction: column;
+        max-width: 100%;
+        gap: 18px;
+        text-align: center;
+    }
+    .columns {
+        flex-direction: column;
+        text-align: center;
+    }
+    .info {
+        padding-top: 0;
+        padding-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .TopFooter h5 {
+        padding-top: 20px;
+    }
+    a.cabinet {
+        margin-top: 20px;
+    }
+    a.logo {
+        width: 100%
+    }
+    .platform {
+        max-width: 232px;
+    }
+    .download {
+        margin: 0  auto;
+    }
+}

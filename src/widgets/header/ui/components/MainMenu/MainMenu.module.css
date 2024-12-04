@@ -1,0 +1,49 @@
+.MainMenu {
+    height: 103px;
+    width: 100%;
+    background-color: #101010;
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1272px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1150px) {
+    .fifth {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 976px) {
+    .fourth {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 726px) {
+    .third {
+        display: none;
+    }
+}
+@media screen and (max-width: 625px) {
+    .first {
+        display: none;
+    }
+    .second {
+        display: none;
+    }
+}
+

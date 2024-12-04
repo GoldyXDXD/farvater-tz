@@ -1,0 +1,21 @@
+.Breadcrumb {
+    height: 41px;
+    background-color: #262626;
+    display: flex;
+    align-items: center;
+    margin-bottom: 52px;
+}
+
+.Breadcrumb .info {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1272px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.Breadcrumb .info .main span{
+    color: #D9D9D9;
+    padding-right: 10px;
+}
